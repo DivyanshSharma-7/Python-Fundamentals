@@ -47,29 +47,29 @@
 # print(Student["Subjects"]["mathematics"])
 
 # **Dictionaries Methods** :
-Student={
-    "name":"divy",
-    "std":"Btech",
-    "Subjects":{
-"pyhsics":24,
-"chemistry":53,
-"mathematics":45
+# Student={
+#     "name":"divy",
+#     "std":"Btech",
+#     "Subjects":{
+# "pyhsics":24,
+# "chemistry":53,
+# "mathematics":45
 
-    }
+#     }
 
-}
-print(len(Student))       # Return No of Keys in Dictionaries !
-print(Student.keys())
+# }
+# print(len(Student))       # Return No of Keys in Dictionaries !
+# print(Student.keys())
 # type casting in List:
-print(list(Student.keys()))
+# print(list(Student.keys()))
 
-print(Student.values())
-print(Student.items())
-print(Student.get("name1"))   # no error --> None if name key is not in Dictionary
-print(Student["name"])   # error if name key is not Dictionary
+# print(Student.values())
+# print(Student.items())
+# print(Student.get("name1"))   # no error --> None if name key is not in Dictionary
+# print(Student["name"])   # error if name key is not Dictionary
 
-Student.update({"state":"uttar pradesh","first name":"None"})
-print(Student)
+# Student.update({"state":"uttar pradesh","first name":"None"})
+# print(Student)
 
 # # Some Practice Questions :
 # # 1)
