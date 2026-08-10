@@ -1,5 +1,5 @@
 # info={
-#     "name":"idvy",
+#     "name":"divy",
 #     "cpa":"9.6",
 #     "marks":[34,22,3,4,2],
 #     12.8:67
@@ -70,3 +70,28 @@ print(Student["name"])   # error if name key is not Dictionary
 
 Student.update({"state":"uttar pradesh","first name":"None"})
 print(Student)
+
+# # Some Practice Questions :
+# # 1)
+# dict={
+#     "cat":"a small Animal",
+#     "table":("a piece of furniture ","a list of facts & figure")         # multiple values stores as a list or tuple ..   
+# }
+# print(dict)
+
+# 2)
+subjects={
+
+}
+x=float(input("Enter marks of physics : "))
+subjects.update({"physics ":x})
+
+x=float(input("Enter marks of chemistry : "))
+subjects.update({"chemistry ":x})
+
+x=float(input("Enter marks of mathematics : "))
+subjects.update({"mathematics ":x})
+
+print(subjects)
+
+
