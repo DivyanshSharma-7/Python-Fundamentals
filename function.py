@@ -2,7 +2,7 @@
 #     s=a+b
 #     return s
 
-# print("sum is : ",sum(3,4))      # sum(3,4)) --> function calling .  3,4 is arument 
+# print("sum is : ",sum(3,4))      # sum(3,4)) --> function calling .  3,4 is argument 
 
 # def print1():
 #     print("very nice !!")
